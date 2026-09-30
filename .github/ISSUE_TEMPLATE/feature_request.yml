@@ -1,0 +1,25 @@
+name: Propor melhoria
+description: Explique a necessidade operacional antes da solução.
+title: "[Melhoria]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema operacional
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado desejado
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: Regras, exceções e evidências
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riscos e dependências
